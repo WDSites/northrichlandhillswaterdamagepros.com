@@ -273,4 +273,14 @@ main p + p{margin-top:14px}
 .site-footer a,.site-footer address,.prose p,.legal-wrap p,.lead{overflow-wrap:anywhere}
 @media(max-width:600px){.foot-grid{grid-template-columns:minmax(0,1fr)}}
 
-.card .thumb,.blogcard .thumb{display:block;width:calc(100% + 0px);height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-bottom:14px;background:#0B3B4F}
+.card .thumb,.blogcard .thumb{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-bottom:14px;background:#0B3B4F}
+.sec-head-sub{margin-top:40px}
+.sec-head-sub:first-child{margin-top:0}
+.find-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.find-col{background:#fff;border:1px solid #D8E7E7;border-radius:12px;padding:18px 20px}
+.find-col h3{margin:0 0 10px;font-size:1.05rem;color:#0B3B4F}
+.find-col ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.find-col a{color:#087F7F;font-weight:600;text-decoration:none}
+.find-col a:hover{text-decoration:underline}
+
+.pagehead a:not(.btn){color:#fff;text-decoration:underline}
